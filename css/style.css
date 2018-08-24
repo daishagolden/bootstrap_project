@@ -1,6 +1,9 @@
-.page{
+.top-bar{
     background-color:#f2f5f5;
+    color: #949494;
+    border-top: 3px solid #14c0c9;
 }
+
 .top-bar ul{
     list-style: none;
     padding: 0;
@@ -29,22 +32,64 @@
     background-color:lightgray;
 }
 
-.midbar ul{
+.account a{
+    text-decoration: none;
+    color: #14c0c9;
+}
+.midtop-pic{
+    margin-top:20px;
+}
+
+.midtop-bar ul{
+    text-align: right;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.midtop-bar li{
+    padding: 5px;
     list-style: none;
-    padding: 5%;
-    margin: right;
-}
-
-.midbar li{
     display: inline;
-    border: 9px solid #15212b;
-    border-radius: 5px;
-    background-color:#15212b;
-    color: white;
-    font-size: 12px;
 }
 
-.midbar a{
-    color: white;
-    text-decoration: none; 
+.midtop-bar a{
+    text-decoration: none;
+    background-color: #e6e6e6;
+    border-radius: 0;
+    padding: 5px;
+    color: #949494;
+}
+
+.cart a{
+    text-decoration: none;
+    background-color: #14c0c9;
+    color:white;
+}
+
+.lower-bar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.lower-bar ul{
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lower-bar li{
+    display: inline;
+    padding: 15px;
+}
+
+.lower-bar a{
+    text-decoration: none;
+    color:black;
+}
+
+.lower-bar a:hover{
+    text-decoration: none;
+    color: #14c0c9;
 }
