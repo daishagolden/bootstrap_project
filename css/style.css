@@ -1,3 +1,4 @@
+/*signin*/
 .top-bar{
     background-color:#f2f5f5;
     color: #949494;
@@ -32,10 +33,13 @@
     background-color:lightgray;
 }
 
+/*Create an acount*/
 .account a{
     text-decoration: none;
     color: #14c0c9;
 }
+
+/*logo*/
 .midtop-pic{
     margin-top:20px;
 }
@@ -66,6 +70,7 @@
     color:white;
 }
 
+/*homebar*/
 .lower-bar{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -93,3 +98,292 @@
     text-decoration: none;
     color: #14c0c9;
 }
+
+.add-cart{
+    margin-bottom: 80px;
+}
+
+.add-cart p{
+    text-align:center;
+    font-size: 18px;
+    color: #949494;
+    margin-bottom: 20px;
+}
+
+.add-cart a{
+    text-decoration: none;
+    background-color: #414a48;
+    border-radius: 5px;
+    padding: 10px;
+    color: #e6e6e6;
+    margin-left: 75px;
+}
+/*latest*/
+
+.latest h1{
+    border-left: 3px solid #14c0c9;
+    color: #424242;
+    padding-left: 5px;
+}
+
+/*arrow button*/
+
+.button{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.button a{
+    text-decoration: none;
+    background-color: #fafafa;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: #949494;
+}
+
+.button a:hover{
+    text-decoration: none;
+    background-color: #14c0c9;
+    border-radius: 0;
+    padding: 10px 20px;
+    color:white;
+}
+
+/*bestsellers*/
+
+.bestsellers h2{
+    border-left: 3px solid #14c0c9;
+    color: #424242;
+    padding-left: 5px;
+}
+
+/*manufacturers*/
+
+.manufacturers h2{
+    border-left: 3px solid #14c0c9;
+    color: #424242;
+    padding-left: 5px;
+}
+
+
+.welcome h2{
+    border-left: 3px solid #14c0c9;
+    color: #424242;
+    padding-left: 5px;
+}
+
+.welcome img{
+    height: 300px;
+    width: 350px;
+}
+
+.mf{
+    margin-bottom: 20px;
+}
+
+.mf h2{
+    border-left: solid 3px #14c0c9;
+    color: #424242;
+    padding-left: 5px;
+}
+
+.mf-images{
+    margin-bottom: 40px;
+
+}
+
+/*signup bar*/
+
+.signup{
+    background-color: #d4d4d4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.signuph{
+    color: #434746;
+}
+
+.signupform{
+    margin-top: 10px;
+}
+
+.signupbox{
+    background-color: #d4d4d4;
+    border: 2px solid yellow;
+}
+
+.signupbutton{
+    text-decoration: none;
+    background-color: #414a48;
+    border-radius: 0;
+    padding: 5px;
+    color: #e6e6e6;
+}
+
+/*my account*/
+
+.bottom{
+    background-color: #424a4a;
+}
+
+.my-account{
+    margin: 0;
+    padding: 0;
+}
+
+.my-account h3{
+    color: white;
+    font-size: 18px;
+}
+
+.my-account ul{
+    list-style-type: square;
+    color: #14c0c9;
+    padding: 0;
+    margin: 0;
+}
+
+.my-account li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.my-account a{
+    text-decoration: none;
+    color: white;
+}
+
+.my-account a:hover{
+    text-decoration: none;
+    color: #14c0c9;
+}
+
+.twitter{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.twitter h3{
+    font-size: 18px;
+}
+
+.twitter ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.twitter li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.facebook{
+    color: white;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.facebook p{
+    margin-left: 10px;
+}
+
+.facebook img{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    padding:0;
+}
+
+.facebook h4{
+    color: #949494;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*lowest buttons*/
+
+.like-button{
+    background-color: #14c0c9;
+    color: white;
+    border-radius: 2px;
+    padding: 5px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.like-button a{
+    text-decoration: none;
+}
+
+.facebookpeeps{
+    text-decoration: none;
+    color: #14c0c9;
+}
+
+.lowest-buttons{
+    border-top: 2px solid#353838;
+    background-color: #424a4a;
+    margin-bottom: 10px;
+
+}
+
+.social-media img{
+    margin-top: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 40px;
+    height: 40px;
+}
+
+.copy-right{
+    margin-top: 20px;
+    color: #949494;
+    font-size: 12px;
+}
+@media only screen and (max-width: 600px){
+    h2, .{color: red;}
+}
+@media only screen and (min-width: 600px){
+    h2, .{color: green;}
+}
+@media only screen and (min-width: 768px){
+    h2, .{color: blue;
+
+    }
+}
+@media only screen and (min-width: 992px){
+    h2, .{color: orange;
+
+    }
+}
+@media only screen and (min-width: 1200px){
+    h2, .{color: pink;
+
+    }
+}
+@media only screen and (max-width: 600px){
+    .add-cart a, img{word-wrap: break-word;
+        overflow: auto;}
+}
+@media only screen and (min-width: 600px){
+    .add-cart a, img{word-wrap: break-word;
+        overflow: auto;}
+}
+@media only screen and (min-width: 768px){
+    .add-cart a, img{word-wrap: break-word;
+        overflow: auto;}
+}
+@media only screen and (min-width: 992px){
+    .add-cart a, img{word-wrap: break-word;
+        overflow: auto;}
+}
+@media only screen and (min-width: 1200px){
+    .add-cart a, img{word-wrap: break-word;
+        overflow: auto;}
+}
+
